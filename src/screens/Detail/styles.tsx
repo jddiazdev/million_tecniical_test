@@ -5,7 +5,7 @@ const {width, height} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: width * 0.03, // ~10 en pantallas medianas
+    paddingHorizontal: width * 0.03,
   },
   containerHeader: {
     padding: width * 0.05,
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   },
 
   icon: {
-    width: width * 0.12, // ~50 en pantallas medianas
+    width: width * 0.12,
     height: width * 0.12,
   },
 
