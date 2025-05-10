@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, Text, TouchableOpacity, View} from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
@@ -14,8 +14,6 @@ interface Props
 export const DetailCryptoScreen = ({navigation, route}: Props) => {
   const {params} = route;
   const item = params?.item;
-
-  console.log(item);
 
   return (
     <SafeAreaView style={styles.container}>
